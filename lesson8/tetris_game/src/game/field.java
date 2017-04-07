@@ -23,19 +23,19 @@ public class field extends JPanel {
 		
 		// Загрузка графики
 		try {
-			hat = ImageIO.read(new File("tetris_game\\images\\hat.png"));
+			hat = ImageIO.read(new File("C:\\Users\\Alyona\\workspace\\game\\src\\hat.png"));
 		}
 		catch (IOException ex) {
 			// Вывод сообщения в специальный поток ошибок
-			System.err.print("Не удалось открыть картинку hat.png");
+			System.err.println("Не удалось открыть картинку hat.png");
 		}
 		
 		try {
-			background = ImageIO.read(new File("tetris_game\\images\\background.png"));
+			background = ImageIO.read(new File("C:\\Users\\Alyona\\workspace\\game\\src\\background.png"));
 		}
 		catch (IOException ex) {
 			// Вывод сообщения в специальный поток ошибок
-			System.err.print("Не удалось открыть картинку background.png");
+			System.err.println("Не удалось открыть картинку background.png");
 		}
 		
 		
