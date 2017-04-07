@@ -27,7 +27,7 @@ public class field extends JPanel {
 		}
 		catch (IOException ex) {
 			// Вывод сообщения в специальный поток ошибок
-			System.err.println("Не удалось открыть картинку hat.png");
+			System.err.print("Не удалось открыть картинку hat.png");
 		}
 		
 		try {
@@ -35,7 +35,7 @@ public class field extends JPanel {
 		}
 		catch (IOException ex) {
 			// Вывод сообщения в специальный поток ошибок
-			System.err.println("Не удалось открыть картинку background.png");
+			System.err.print("Не удалось открыть картинку background.png");
 		}
 		
 		
